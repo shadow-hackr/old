@@ -109,7 +109,7 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 	def fbtua(self):
 		x = 111111111
 		xx = 999999999
-		ids = "1000000" 
+		idx = "1000000" 
 		limit = int(input("    \033[0;91m[+]\033[0;92m TOTAL IDS TO CRACK (LIMIT 150000): "))
 		try:
 			for n in range(limit):
