@@ -95,11 +95,11 @@ $$\   $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mWARNING  : DON'T TRY TO BYPASS 
 \033[1;90m══════════════════════════════════════════════════
     """)
-		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,B,G,R,G))
-		print("%s [%s•%s] %sVERSION   : %s5.0"%(G,C,S,B,R))
+		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
+		print("%s [%s•%s] %sVERSION   : %s5.0"%(G,R,G,B,G))
 		print("")
 		print("\n    \033[0;92m            UID CLONING \033[0;97m ")
-		print("%s [%s1%s]%s CRACK RANDOM FB ID 2004-16 {JUST NOW} %s(Green)"%(G,R,B,Y,Y))
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2004-16 {JUST NOW} %s(Green)"%(G,R,G,Y,B))
 		tanya = input("    \033[0;91m(#)\033[0;92m CHOOSE : ")
 		if tanya in ["", " "]:
 			Main()
